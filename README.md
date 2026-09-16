@@ -9,16 +9,20 @@ A dependency-free Python command-line application for adding, viewing, and delet
 ## Commands
 
 > bash
-### Add a task
-a python task_cli.py add "Ship the CLI prototype"
+###  Add a task
+• a python task_cli.py add "Ship the CLI prototype"
 
 ### View tasks
-python task_cli.py list
+• python task_cli.py list
 ### `view` is an alias for `list`
 
 ### Delete a task by its displayed ID
-python task_cli.py delete 1
+• python task_cli.py delete 1
 ### `remove` and `rm` are aliases
+
+### Make script(file)executable as standalone
+• chmod +x task_cli.py
+• ./task_cli.py add "[Task]"
 
 ># Use a project-local task file
 

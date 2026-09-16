@@ -47,7 +47,7 @@ def list_tasks(store: Path) -> None:
     if not tasks:
         print("No tasks yet. Add one with: task_cli.py add Buy groceries")
         return
-    print("Tasks")
+    print("\033[1;32mTasks\033[0m")
     print("-----")
     for task in tasks:
         print(f'{task["id"]:>3}. {task["title"]}')
