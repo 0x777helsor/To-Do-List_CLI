@@ -22,6 +22,7 @@ A dependency-free Python command-line application for adding, viewing, and delet
 
 ### Make script(file)executable as standalone
 • chmod +x task_cli.py
+
 • ./task_cli.py add "[Task]"
 
 ># Use a project-local task file
